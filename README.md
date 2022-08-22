@@ -1,14 +1,25 @@
+<h1 align="center"> Change your mood </h1>
+
 ## Descrição
 
-Projeto de layout desenvolvido na linguagem HTML5 e CSS3 com dinamica de mudança de cores realizada no JavaScript
+Já ouviu falar que as cores mudam nosso humor? Trouxe aqui um estudo de mudança de cor no site, com o conceito de levar ao usuário a possibilidade de personalizar seu site de navegação conforme seu humor ou gosto.
 
-### Passo Um
+<!-- <p align="center"><img src="assets/gif.gif"></p> -->
 
-Layout com box central e o botões para selecionar as cores desejadas para a página completa, sendo elas: Rosa, Laranja e Verde.
+## Status
 
-### Passa Dois
+Não Finalizado
 
-Colocar imagem divertida ao clicar no botão (fogos de artificios?)
+## Objetivo
+
+- `Desenvolver UI`
+- `Praticar JavaScrit`
+
+## Tecnologias utilizadas
+
+- `HTML5`
+- `CSS3`
+- `JavaScript`
 
 ## Link de demonstração
 
