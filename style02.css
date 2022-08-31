@@ -1,0 +1,79 @@
+:root {
+  --bg-original01:  rgb(31, 31, 39);
+  --bg-original02:  rgb(31, 31, 39);
+  --texto-original: rgb(226, 226, 226);
+}
+
+.mode.rosa {
+  --bg-rosa: rgb(208, 118, 206);
+  --texto-rosa: rgb(148, 23, 146);
+}
+
+body {
+  background-color: var(--bg-original01);
+  color: var(--texto-original);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  background-image: linear-gradient(var(--bg-original01), var(--bg-original02));
+  box-shadow: 0px 0px 0px 2px var(--bg-original02);
+
+  /* background: linear-gradient(rgb(31, 31, 39), rgb(43, 43, 54));  box-shadow: 0px 0px 0px 2px rgb(43, 43, 54); */
+
+  width: 320px;
+  height: 350px;
+  border-radius: 20px;
+
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+
+  line-height: 50px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 30px;
+  margin-top: 90px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ctd {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ------- BOTÕES ------- */
+
+.btn{
+  display: none;
+
+  border: none;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  margin: 12px;
+  cursor: pointer;
+}
+
+.mudar-tema-rosa {
+  border: none;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  margin: 12px;
+  cursor: pointer;
+}
+
+/* border: none;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+
+padding: 20px;
+margin: 12px;
+cursor: pointer; */
