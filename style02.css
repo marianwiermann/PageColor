@@ -1,12 +1,22 @@
 :root {
   --bg-original01:  rgb(31, 31, 39);
-  --bg-original02:  rgb(31, 31, 39);
+  --bg-original02:  rgb(43, 43, 54);
   --texto-original: rgb(226, 226, 226);
 }
 
-.mode.rosa {
+.pink-mode {
   --bg-rosa: rgb(208, 118, 206);
   --texto-rosa: rgb(148, 23, 146);
+}
+
+.orange-mode {
+  --bg-laranja: rgb(214, 137, 87);
+  --texto-laranja: rgb(190, 94, 31);
+}
+
+.green-mode {
+  --bg-verde: rgb(53, 110, 76);
+  --texto-verde: rgb(29, 57, 40);
 }
 
 body {
@@ -19,9 +29,7 @@ body {
   background-image: linear-gradient(var(--bg-original01), var(--bg-original02));
   box-shadow: 0px 0px 0px 2px var(--bg-original02);
 
-  /* background: linear-gradient(rgb(31, 31, 39), rgb(43, 43, 54));  box-shadow: 0px 0px 0px 2px rgb(43, 43, 54); */
-
-  width: 320px;
+  width: 350px;
   height: 350px;
   border-radius: 20px;
 
@@ -40,40 +48,48 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.ctd {
+.cta {
   font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* ------- BOTÕES ------- */
-
 .btn{
-  display: none;
-
-  border: none;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  padding: 20px;
-  margin: 12px;
-  cursor: pointer;
+  border: none;
+  margin: 10px;
+  cursor: pointer; 
 }
 
-.mudar-tema-rosa {
-  border: none;
-  border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  padding: 20px;
-  margin: 12px;
-  cursor: pointer;
+/* ------- BOTÃO ROSA ------- */
+.pink-mode {
+  background: rgb(208, 118, 206);
+  box-shadow: 0px 0px 0px 2px rgb(206, 142, 205);
+  color: var(--texto-rosa);
 }
 
-/* border: none;
-border-radius: 50%;
-height: 40px;
-width: 40px;
+.pink-mode:hover {
+  background: rgb(206, 142, 205);
+}
 
-padding: 20px;
-margin: 12px;
-cursor: pointer; */
+/* ------- BOTÃO LARANJA ------- */
+/* .orange-mode {
+  background: rgb(214, 137, 87);
+  box-shadow: 0px 0px 0px 2px rgb(216, 150, 106);
+}
+
+.orange-mode:hover {
+  background: rgb(216, 150, 106);
+} */
+
+/* ------- BOTÃO VERDE ------- */
+/* .green-mode {
+  background: rgb(53, 110, 76);
+  box-shadow: 0px 0px 0px 2px rgb(70, 119, 90);
+}
+
+.green-mode:hover {
+  background: rgb(70, 119, 90);
+} */
