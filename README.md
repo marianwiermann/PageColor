@@ -8,7 +8,7 @@ Já ouviu falar que as cores mudam nosso humor? Trouxe aqui um estudo de mudanç
 
 ## Status
 
-Não Finalizado
+- Finalizado
 
 ## Objetivo
 

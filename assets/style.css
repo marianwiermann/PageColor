@@ -1,0 +1,123 @@
+:root {
+  --bg-original01:  rgb(31, 31, 39);
+  --bg-original02:  rgb(43, 43, 54);
+  --texto-original: rgb(169, 169, 169);
+}
+
+/* ------- VARIANTE BUTTON ------- */
+/* PINK */
+.pink-mode {
+  --bg-rosa01: rgb(226, 140, 225);
+  --bg-rosa02: rgb(199, 94, 197);
+  --bg-rosa03: rgb(148, 23, 146);
+}
+
+/* ORANGE */
+.orange-mode {
+  --bg-orange01: rgb(214, 137, 87);
+  --bg-orange02: rgb(191, 104, 46);
+  --bg-orange03: rgb(159, 64, 0);
+}
+
+/* GREEN */
+.green-mode {
+  --bg-green01: rgb(53, 110, 76);
+  --bg-green02: rgb(42, 88, 60);
+  --bg-green03: rgb(37, 51, 42);
+}
+
+/* ------- MODE ------- */
+/* PINK */
+.pink-mode {
+  --bg-original01: rgb(226, 140, 225);
+  --bg-original02: rgb(199, 94, 197);
+  --texto-original: rgb(148, 23, 146);
+}
+
+/* ORANGE */
+.orange-mode {
+  --bg-original01: rgb(214, 137, 87);
+  --bg-original02: rgb(190, 94, 31);
+  --texto-original: rgb(159, 64, 0);
+}
+
+/* GREEN */
+.green-mode {
+  --bg-original01: rgb(53, 110, 76);
+  --bg-original02: rgb(29, 57, 40);
+  --texto-original: rgb(25, 35, 29);
+}
+
+body {
+  background: var(--bg-original01);
+  color: var(--texto-original);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  background: linear-gradient(var(--bg-original01),var(--bg-original02));
+  box-shadow: 0px 0px 0px 2px var(--bg-original02);
+
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+
+  line-height: 50px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 30px;
+  margin-top: 90px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cta {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ------- STYLE BUTTON ------- */
+.btn{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  margin: 10px;
+  cursor: pointer; 
+}
+
+/* ------- PINK BUTTON ------- */
+.pink-btn {
+  background: var(--bg-rosa02);
+  box-shadow: 0px 0px 0px 2px var(--bg-rosa01);
+}
+
+.pink-btn:hover {
+  background: var(--bg-rosa01);
+}
+
+/* ------- ORANGE BUTTON ------- */
+.orange-btn {
+  background: var(--bg-orange02);
+  box-shadow: 0px 0px 0px 2px var(--bg-orange01);
+}
+
+.orange-btn:hover {
+  background: var(--bg-orange01);
+}
+
+/* ------- GREEN BUTTON ------- */
+.green-btn {
+  background: var(--bg-green02);
+  box-shadow: 0px 0px 0px 2px var(--bg-green01);
+}
+
+.green-btn:hover {
+  background: var(--bg-green01);
+}
